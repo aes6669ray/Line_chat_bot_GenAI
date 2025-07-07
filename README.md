@@ -8,6 +8,12 @@
 ## 
 
 ### 效果演示:
+#### 文生圖
+![image](https://github.com/aes6669ray/Line_chat_bot_GenAI/blob/main/demo/%E6%96%87%E7%94%9F%E5%9C%96.jpg)
+
+#### 圖生影
+![image](https://github.com/aes6669ray/Line_chat_bot_GenAI/blob/main/demo/%E5%9C%96%E7%94%9F%E5%BD%B1.jpg)
+![image](https://github.com/aes6669ray/Line_chat_bot_GenAI/blob/main/demo/%E5%BD%B1%E7%89%87demo.gif)
 
 ##
 ### 使用說明:app.py操控所有LINE上的PUSH、REPLY機制。把想要使用的模型都寫成FUNCTION並存在models_py(模型本體存在models)，再從app.py去調用與設定REPLY時機。只要看得懂LINE的參數、FUNCTION的調用就沒甚麼難點。建議先熟悉怎麼用python建立LINE聊天機器人
